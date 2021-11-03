@@ -1,0 +1,87 @@
+/* ------------General Role-------------- */
+html{
+  min-height: 100%;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+body{
+  margin: 0 5%;                 /*Donnez une marge de 100px sur les cotés et Opx en haut et en bas */
+  background-color: #edeef1;
+  color: rgb(56, 55, 55);
+  line-height: 1.7;
+}
+body h1{
+  text-align: center;
+  text-decoration: underline;
+}
+body h3{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: rgb(59, 57, 57);
+  font-weight: bold;
+}
+
+/* ------------EN-TETE-------------------- */
+
+.nom_hero{
+  text-decoration: inherit;
+  letter-spacing: 0.50px;
+  font-size: 35px;
+}
+.desc{
+  background-color: rgba(63, 65, 63, 0.178);
+  margin: 0 30px 0 30px;
+}
+.pageAccueil{
+  margin: 0 400px 0 400px;
+  border: 1px solid rgba(63, 65, 63, 0.178);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pageAccueil img{
+  text-align: center;
+  display: flex;
+  margin: auto;
+  border-radius: 50% 90% 50% 90%;
+  border: 1px solid rgb(49, 49, 49);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+/* ---------------LISTES------------------- */
+
+div h1{
+  margin-top: 80px;
+}
+table{
+  border-collapse: collapse           /*Consiste à coller les cellules*/
+  } 
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+th{
+  border: 1px solid black;
+}
+
+/* -------------------------IMAGES-------------------------- */
+
+
+.images{
+  height: 800px;
+  width: 800px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+/* -------------------------FOOTER-------------------------- */
+.footer{
+  background-color: green;
+  text-align: center;
+  margin-top: 50px;
+  color: #000;
+  font-weight: bold;
+}
