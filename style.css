@@ -79,9 +79,9 @@ th{
 
 /* -------------------------FOOTER-------------------------- */
 .footer{
-  background-color: green;
   text-align: center;
   margin-top: 50px;
   color: #000;
   font-weight: bold;
+  letter-spacing: 0.50px;
 }
