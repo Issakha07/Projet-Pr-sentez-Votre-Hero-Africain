@@ -8,6 +8,7 @@ body{
   margin: 0 5%;                 /*Donnez une marge de 100px sur les cotés et Opx en haut et en bas */
   background-color: #edeef1;
   color: rgb(56, 55, 55);
+  font-family: poppins, sans-serif;
   line-height: 1.7;
 }
 body h1{
@@ -50,11 +51,14 @@ a{
 }
 /* ---------------LISTES------------------- */
 
+.biograph:hover{
+  color: #ED4648;
+}
 div h1{
   margin-top: 80px;
 }
 table{
-  border-collapse: collapse           /*Consiste à coller les cellules*/
+  border-collapse: collapse;           /*Consiste à coller les cellules*/
   } 
 td{
   border: 1px solid black;
@@ -63,6 +67,9 @@ td{
 th{
   border: 1px solid black;
 }
+/* .ul li{
+  list-style: none;           Pour enlever les puces(points) sur les listes
+} */
 
 /* -------------------------IMAGES-------------------------- */
 
